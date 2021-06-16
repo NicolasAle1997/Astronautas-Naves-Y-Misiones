@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1623862961 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Astronauta.h"
+
+1623866323 c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.h
+
+1623863050 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Astronauta.h"
+
