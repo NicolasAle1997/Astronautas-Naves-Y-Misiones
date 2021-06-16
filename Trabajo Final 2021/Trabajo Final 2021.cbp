@@ -31,6 +31,18 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
+		<Unit filename="Astronauta.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Astronauta.h" />
+		<Unit filename="Mision.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Mision.h" />
+		<Unit filename="Nave.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Nave.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>

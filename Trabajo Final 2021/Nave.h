@@ -1,6 +1,6 @@
-
 /********************************************/
 ///POR FAVOR NO BORRAR NADA
+
 #ifndef NAVE_H_INCLUDED
 #define NAVE_H_INCLUDED
 
