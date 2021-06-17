@@ -12,7 +12,7 @@ int id_nuevo()
     int idnuevo=0;
     Astronauta aux;
 
-    FILE *pArchAstronauta=fopen(ArchivoAstronauta,"r+b");
+    FILE *pArchAstronauta=fopen("AstronautaRegistro.dat","r+b");
 
     if(pArchAstronauta!=NULL)
     {
@@ -51,7 +51,7 @@ Astronauta Crear()
 
     printf("\nNacionalidad: ");
     fflush(stdin);
-    gets(nuevo.Nacionalidad);
+    scanf("%s",&nuevo.Nacionalidad);
 
     printf("\n~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
 
@@ -124,7 +124,7 @@ Astronauta Especialidades()
 void CargaArchivo(Astronauta nuevo)
 {
     int opcion=0;
-    FILE *pArchAstronauta=fopen(ArchivoAstronauta,"a+b");
+    FILE *pArchAstronauta=fopen("AstronautaRegistro.dat","a+b");
 
     if(pArchAstronauta!=NULL)
     {
@@ -175,7 +175,7 @@ void MuestraArchivoDeAstronauta()
 {
     Astronauta nombre;
 
-    FILE *pArchAstronauta=fopen(ArchivoAstronauta,"r+b");
+    FILE *pArchAstronauta=fopen("AstronautaRegistro.dat","r+b");
 
     if(pArchAstronauta!=NULL)
     {
@@ -199,7 +199,7 @@ int existeAstronauta(int AstronautaId)
 
     int flag = 0;
 
-    FILE *pArchAstronauta=fopen(ArchivoAstronauta, "rb");
+    FILE *pArchAstronauta=fopen("AstronautaRegistro.dat", "rb");
 
     if(pArchAstronauta!=NULL)
     {
@@ -219,7 +219,7 @@ int existeAstronauta(int AstronautaId)
 void modificaRegistro(Astronauta Astro, int idAstronauta) /// En Astro están los datos nuevos que se quieren guardar
 {
     /// y en idAstro el id del cliente cuyos datos se quieren pisar
-    FILE *pArchAstronauta=fopen(ArchivoAstronauta, "r+b");
+    FILE *pArchAstronauta=fopen("AstronautaRegistro.dat", "r+b");
 
     if(pArchAstronauta!=NULL)
     {

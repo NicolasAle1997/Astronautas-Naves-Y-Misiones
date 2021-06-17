@@ -4,8 +4,8 @@
 
 ///EN EL CASO DE QUE EN LA ESTRUCTURA HAYA UN TIPO DE DATO DE OTRA ESTRUCTURA, USAR #INCLUDE ..NOMBRE ESTRUCTURA...
 
-const char ArchivoAstronauta[]="AstronautasArch.dat";
-#define ESC 27
+///No crear constantes , ni definir nada (no arranca el programa sino)
+
 
 ///EN EL CASO DE QUE EN LA ESTRUCTURA HAYA UN TIPO DE DATO DE OTRA ESTRUCTURA, USAR #INCLUDE ..NOMBRE ESTRUCTURA...
 ///HEADER DE NAVE , AQUI SE PONEN LAS CABECERAS DE NAVE.
