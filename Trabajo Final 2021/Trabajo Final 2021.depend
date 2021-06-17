@@ -1,14 +1,31 @@
 # depslib dependency file v1.0
-1623862961 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.c
+1623893323 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.c
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	"Astronauta.h"
 
-1623866323 c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.h
+1623894814 c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\astronauta.h
 
-1623863050 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\main.c
+1623893371 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"Astronauta.h"
+
+1623886879 c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\nave.h
+
+1623886879 c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\mision.h
+
+1623884982 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\mision.c
 	<stdio.h>
 	<stdlib.h>
-	"Astronauta.h"
+	<string.h>
+	"Mision.h"
+
+1623884982 source:c:\users\nicolas ale\documents\github\astronautas-naves-y-misiones\trabajo final 2021\nave.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"Nave.h"
 

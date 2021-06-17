@@ -1,10 +1,14 @@
-/********************************************/
-///POR FAVOR NO BORRAR NADA
-
 #ifndef ASTRONAUTA_H_INCLUDED
 #define ASTRONAUTA_H_INCLUDED
+
 ///EN EL CASO DE QUE EN LA ESTRUCTURA HAYA UN TIPO DE DATO DE OTRA ESTRUCTURA, USAR #INCLUDE ..NOMBRE ESTRUCTURA...
-///HEADER DE ASTRONAUTA , AQUI SE PONEN LAS CABECERAS DE ASTRONAUTA.
+
+const char ArchivoAstronauta[]="AstronautasArch.dat";
+#define ESC 27
+
+
+
+///HEADER DE ASTRONAUTA , AQUI SE PONEN LAS CABECERAS DE ASTRONAUTA y ESTRUCTURA.
 
 /*
     AQUI PONDREMOS:
@@ -27,13 +31,19 @@ typedef struct
     int Estado; // 1 o 0
 } Astronauta;
 
-Astronauta cargaAstronauta();
 
-/********************************************/
-
-
+Astronauta Crear();
+Astronauta Especialidades();
+void CargaArchivo(Astronauta nuevo);
+void CargaArchivoVariasVeces();
+int id_nuevo();
+void MostrarAstronauta(Astronauta X);
+void MuestraArchivoDeAstronauta();
+void modificaRegistro (Astronauta Astro, int idAstronauta);
+int existeAstronauta (int AstronautaId);
 
 
 
 ///POR FAVOR NO BORRAR NADA
+
 #endif // ASTRONAUTA_H_INCLUDED
