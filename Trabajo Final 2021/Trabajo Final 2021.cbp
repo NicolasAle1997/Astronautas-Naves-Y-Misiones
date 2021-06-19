@@ -35,6 +35,14 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="Astronauta.h" />
+		<Unit filename="Genericas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Genericas.h" />
+		<Unit filename="Menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Menu.h" />
 		<Unit filename="Mision.c">
 			<Option compilerVar="CC" />
 		</Unit>

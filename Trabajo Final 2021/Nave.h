@@ -16,6 +16,17 @@
     |-> ENCABEZADOS DE NUESTRAS FUNCIONES DE NAVE (NO VAN LAS FUNCIONES ACA).
 */
 
+typedef struct
+{
+    int Id;
+    char TipoDeNave[20];
+    int CantidadDeVuelosRealizados;
+    int HorasDeVueloAcumuladas;
+    int Estado; ///(0- mantenimiento 1- Lista para su uso 2- Actualmente en misión 3- De baja)
+}Nave;
+
+
+
 /********************************************/
 
 

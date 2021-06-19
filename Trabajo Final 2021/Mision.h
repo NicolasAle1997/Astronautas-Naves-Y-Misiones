@@ -17,7 +17,16 @@
 
 /********************************************/
 
-
+typedef struct
+{
+    int Id;
+    int IDnave;
+    char Estado[20]; /// (Listo, En vuelo, Retornada, Cancelada, Fallida)
+    char Destino[20]; ///  Destino (EEI, Órbita terrestre, Luna, etc)
+    char Cargamento[20]; /// Satelite, Insumos para la EEI, El auto de Elon musk , etc )
+    int Tripulantes;  /// (Guardar sus ID)
+    char DetalleDeLaMision[20];
+}Mision;
 
 
 
